@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.treeView = new System.Windows.Forms.TreeView();
             this.btnStart = new System.Windows.Forms.Button();
             this.cmbInterfaces = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // treeView1
+            // treeView
             // 
-            this.treeView1.Location = new System.Drawing.Point(12, 12);
-            this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(656, 349);
-            this.treeView1.TabIndex = 0;
+            this.treeView.Location = new System.Drawing.Point(12, 12);
+            this.treeView.Name = "treeView";
+            this.treeView.Size = new System.Drawing.Size(656, 349);
+            this.treeView.TabIndex = 0;
             // 
             // btnStart
             // 
@@ -65,7 +65,7 @@
             this.ClientSize = new System.Drawing.Size(680, 441);
             this.Controls.Add(this.cmbInterfaces);
             this.Controls.Add(this.btnStart);
-            this.Controls.Add(this.treeView1);
+            this.Controls.Add(this.treeView);
             this.Name = "SnifferForm";
             this.Text = "Traffic Analyzer (Sniffer) ";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SnifferForm_FormClosing);
@@ -76,7 +76,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TreeView treeView;
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.ComboBox cmbInterfaces;
     }
