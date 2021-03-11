@@ -37,7 +37,7 @@ namespace TrafficAnalyzer
         {
             if (cmbInterfaces.Text == "")
             {
-                MessageBox.Show("Select an Interface to capture the packets.", "MJsniffer", 
+                MessageBox.Show("Выберите интерфейс для захвата пакетов.", "TrafficAnalyzer", 
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
@@ -87,7 +87,7 @@ namespace TrafficAnalyzer
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "MJsniffer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "TrafficAnalyzer", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

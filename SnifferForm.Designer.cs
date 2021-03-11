@@ -46,7 +46,7 @@
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(167, 54);
             this.btnStart.TabIndex = 1;
-            this.btnStart.Text = "Start";
+            this.btnStart.Text = "&Старт";
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
@@ -57,6 +57,7 @@
             this.cmbInterfaces.Name = "cmbInterfaces";
             this.cmbInterfaces.Size = new System.Drawing.Size(462, 21);
             this.cmbInterfaces.TabIndex = 2;
+            this.cmbInterfaces.Text = "Выберите сеть";
             // 
             // SnifferForm
             // 
